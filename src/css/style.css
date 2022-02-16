@@ -57,6 +57,11 @@ body{
 }
 
 #submit{
+    font-family: 'Oswald', sans-serif;
+    background-color: #e4e6eb;
+    border: .2rem solid #242526;
+    font-size: 1rem;
+    font-weight: 400;
     padding: 1rem;
     width: 50%;
     align-self: center;
