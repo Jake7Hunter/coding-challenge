@@ -50,6 +50,10 @@ form.addEventListener(`submit`, function(event){
         })
         .then(function(docref){
             console.log(`document written with id:`, docref.id);
+            getJokes();
+            yourName.value = "";
+            yourJoke.value = "";
+
         })
         .catch(function (err) {
             console.log(`error adding doc: `, err);
