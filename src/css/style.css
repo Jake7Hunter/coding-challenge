@@ -56,6 +56,10 @@ body{
     gap: 1em;
 }
 
+#form h2{
+    margin-bottom: 0;
+}
+
 #submit{
     font-family: 'Oswald', sans-serif;
     background-color: #e4e6eb;
@@ -67,7 +71,7 @@ body{
     align-self: center;
 }
 
-#form li{
+#submittedJoke{
     text-align: left;
     font-size: 1rem;
 }
