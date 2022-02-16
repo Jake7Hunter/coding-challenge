@@ -16,16 +16,16 @@
 
         </div>  
     </section>
-    <section id="form">
-        <form>
-            <h1>Submit your Joke</h1>
-
-            <button id="formButton">Submit</button>
-            <div id="yourJoke">
-
-            </div>  
-        </form>
-    </section>
+    <form id="form">
+        <h1>Submit Your Joke</h1>
+        Name:
+        <input type="text" id="yourName">
+        Joke:
+        <textarea type="text" rows="5" id="yourJoke"></textarea>
+        <input type="submit"  id="submit">
+        <div id="submittedJoke">
+        </div>  
+    </form>
 
     <!-- Scripts -->
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
