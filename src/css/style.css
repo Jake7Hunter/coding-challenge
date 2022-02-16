@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 
 body{
+    background-color: #B9CBD9;
     min-height: 100vh;
     font-family: 'Oswald', sans-serif;
     color: #242526;
@@ -10,14 +11,16 @@ body{
     justify-content: center; 
 }
 
+/* Joke Generator */
 #content{
-    background-color: #f9f9f9;
+    background-color: #EAE7E2;
     width: 50%;
     border: 0.5em solid #242526;
     padding: 3em;
     text-align: center;
     box-shadow: 5px 10px #888888;
     border-radius: 0.5em;
+    margin-bottom: 3em;
 }
 
 #content h1{
@@ -37,4 +40,15 @@ body{
     background-color: #e4e6eb;
     border: .2rem solid #242526;
     padding: 2rem;
+}
+
+/* Form */
+#form{
+    background-color: #EAE7E2;
+    width: 50%;
+    border: 0.5em solid #242526;
+    padding: 3em;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    border-radius: 0.5em;
 }

@@ -15,7 +15,35 @@
         <div id="currentJoke">
 
         </div>  
-
     </section>
+    <section id="form">
+        <form>
+            <h1>Submit your Joke</h1>
+
+            <button id="formButton">Submit</button>
+            <div id="yourJoke">
+
+            </div>  
+        </form>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDolCgUTLxx9CEUWlGMG4l2qeV3I4tcTqE",
+            authDomain: "coding-challenge-89a69.firebaseapp.com",
+            projectId: "coding-challenge-89a69",
+            storageBucket: "coding-challenge-89a69.appspot.com",
+            messagingSenderId: "366393031316",
+            appId: "1:366393031316:web:b2170684b8869bc6675281",
+            measurementId: "G-8Z5TT11HTZ"
+        };
+        
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+    <script src="./src/index.js"></script>
 </body>
 </html>
