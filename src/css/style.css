@@ -30,6 +30,8 @@ body{
 #content p{
     font-size: 1.5rem;
     font-weight: 400;
+}
+#currentJoke{
     text-align: left;
 }
 
